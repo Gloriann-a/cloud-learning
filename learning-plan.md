@@ -25,3 +25,9 @@ Phase 3: The Container Era
 [ ] Deploy a simple website locally
 
 [ ] Become a cloud engineer
+
+
+
+---
+### Victories
+- [x] Successfully pushed my first file to GitHub!
