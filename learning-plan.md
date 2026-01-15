@@ -23,3 +23,5 @@ Phase 3: The Container Era
 [ ] Run my first Docker container
 
 [ ] Deploy a simple website locally
+
+[ ] Become a cloud engineer
