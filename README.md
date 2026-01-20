@@ -13,3 +13,11 @@ Documenting my transition from Cloud User to **Cloud Operator**. Currently maste
 
 ### Project Goal
  To document my hands-on mastery of Cloud Infrastructure, starting from the local terminal and moving toward automated cloud deployments. This repo serves as my "Proof of Work" as I transition into a Cloud Engineering role.
+
+ ## 📈 Progress Log
+
+| Date | Phase | Task | Key Takeaway |
+| :--- | :--- | :--- | :--- |
+| 2026-01-18 | Phase 1 | Initial Setup | Successfully installed WSL2 & Ubuntu. |
+| 2026-01-19 | Phase 1 | Git Fundamentals | Resolved credential errors & pushed first repo. |
+| 2026-01-20 | Phase 1 | Portfolio Update | Optimized README with badges and progress log. |
