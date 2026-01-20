@@ -1,12 +1,15 @@
-# 🚀 Phase 1: The Linux & Git Foundations
+# 🚀 Cloud Engineering: User to Operator Journey
 
-## Project Goal
-Transitioning from "Cloud-only" to mastering the underlying Operating Systems that power AWS and Azure.
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E94333?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-## 🛠️ Technical Progress
-- **Secure Authentication:** Configured SSH key handshakes for GitHub.
-- **Environment:** Successfully integrated WSL2 (Ubuntu) with VS Code.
-- **Security:** Mastering Linux File Permissions (chmod) to secure local environments.
+---
+## The Mission
+Documenting my transition from Cloud User to **Cloud Operator**. Currently mastering the Linux terminal (Ubuntu/WSL2), Git version control, and secure file systems.
 
-## 💡 Why this matters
- Understanding the OS is the "Engine" of the Cloud. I'm learning to be an Operator, not just a User.
+
+### Project Goal
+ To document my hands-on mastery of Cloud Infrastructure, starting from the local terminal and moving toward automated cloud deployments. This repo serves as my "Proof of Work" as I transition into a Cloud Engineering role.
