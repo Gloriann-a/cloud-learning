@@ -18,6 +18,6 @@ Documenting my transition from Cloud User to **Cloud Operator**. Currently maste
 
 | Date | Phase | Task | Key Takeaway |
 | :--- | :--- | :--- | :--- |
-| 2026-01-18 | Phase 1 | Initial Setup | Successfully installed WSL2 & Ubuntu. |
-| 2026-01-19 | Phase 1 | Git Fundamentals | Resolved credential errors & pushed first repo. |
+| 2026-01-15 | Phase 1 | Initial Setup | Successfully installed WSL2 & Ubuntu. |
+| 2026-01-16 | Phase 1 | Git Fundamentals | Resolved credential errors & pushed first repo. |
 | 2026-01-20 | Phase 1 | Portfolio Update | Optimized README with badges and progress log. |
