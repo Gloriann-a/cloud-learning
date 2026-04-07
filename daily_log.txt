@@ -1,0 +1,14 @@
+CLOUD LEARNING JOURNEY: PHASE 1 
+
+[Date: 2026-04-03 to 2026-04-06]
+- Initialized 'cloud-learning' GitHub repository.
+- Installed and configured Nginx Web Server on Ubuntu.
+- Deployed custom 'index.html' to /var/www/html/.
+- Installed and verified AWS CLI (v2) for future cloud interactions.
+- Configured local environment for "Cloud Architect" workflow.
+
+[Date: 2026-04-07] - TODAY
+- Analyzed Nginx access logs using 'tail -f'.
+- Identified and decoded HTTP Status Codes (200, 304).
+- Verified network listening ports using 'ss -tulpn'.
+- Completed Observability Assignment Stage 1.2.
