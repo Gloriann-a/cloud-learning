@@ -16,8 +16,12 @@ Documenting my transition from Cloud User to **Cloud Operator**. Currently maste
 
  ## 📈 Progress Log
 
-| Date | Phase | Task | Key Takeaway |
-| :--- | :--- | :--- | :--- |
-| 2026-01-15 | Phase 1 | Initial Setup | Successfully installed WSL2 & Ubuntu. |
+| Date       | Phase   | Task             | Key Takeaway                                     |
+| :---       | :---    | :---             | :---                                             |
+| 2026-01-15 | Phase 1 | Initial Setup    | Successfully installed WSL2 & Ubuntu. |
 | 2026-01-16 | Phase 1 | Git Fundamentals | Resolved credential errors & pushed first repo. |
 | 2026-01-20 | Phase 1 | Portfolio Update | Optimized README with badges and progress log. |
+| 2026-04-05 | Phase 1 | Foundation       | Nginx Setup,Installed & verified web server on Ubuntu.|
+| 2026-04-05 | Phase 1 | Foundation       |AWS CLI Install,Ready for Cloud interaction via terminal.|
+| 2026-04-07 | Phase 1 | Observability    |Log Analysis,Decoded HTTP 200/304 codes via tail -f.|
+|2026-04-07  | Phase 1 | Observability    |Network Audit,Verified port 80 status using ss -tulpn.|
