@@ -12,3 +12,10 @@ CLOUD LEARNING JOURNEY: PHASE 1
 - Identified and decoded HTTP Status Codes (200, 304).
 - Verified network listening ports using 'ss -tulpn'.
 - Completed Observability Assignment Stage 1.2.
+
+
+Date: 2026-04-08
+Task: Environment Setup & Docker Containerization
+Status: SUCCESS
+Notes: Successfully pulled LocalStack image (1.26GB). Overcame network timeout using retry logic. 
+Verified image layers and checksums. Ready for AWS service simulation.
