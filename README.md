@@ -28,3 +28,37 @@ Documenting my transition from Cloud User to **Cloud Operator**. Currently maste
 2026-04-03 | Foundation | Nginx Setup | Installed & verified web server. |
 |2026-04-08  | Cloud Sim | Docker & LocalStack |Pulled 1.26GB LocalStack image; handled network timeouts with retry logic.|
 |2026-04-13 | Automation | Bash Scripting | Created sys_check.sh to monitor IP, Nginx, and Disk Space.|
+|2026-04-13 |Cloud Sim | S3 ProvisioningResolved Pro license errors; successfully created S3 bucket via LocalStack v3.0.2.|
+
+Markdown
+# Cloud Learning Journey: Local Cloud Setup (13/04/2026)
+
+## 🚀 Objective
+Successfully provisioned a local AWS environment using LocalStack to practice S3 operations without incurring AWS costs.
+
+## 🛠️ Infrastructure Setup
+I utilized **LocalStack v3.0.2** (Community Edition) to avoid licensing issues associated with newer development builds.
+
+**Deployment Command:**
+```bash
+docker run -d --name localstack-final \
+  -p 4566:4566 \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -e "SERVICES=s3" \
+  localstack/localstack:3.0.2
+  
+📝 Troubleshooting Log
+Issue: Localstack returning with exit code 55 (License activation failed).
+
+Fix: Switched from latest tag to a stable version (3.0.2) and deactivated Pro features.
+
+Issue: Docker not available inside the container.
+
+Fix: Mounted the Docker socket (/var/run/docker.sock) to allow the container to communicate with the host engine.
+
+Issue: x-amz-trailer header error during S3 uploads.
+
+Status: Identified as a version mismatch between AWS CLI v2 and LocalStack. Provisioning (Bucket creation) was successful.
+
+📁 Verified Resources
+S3 Bucket: gloria-first-bucket (Created via AWS CLI)
