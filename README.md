@@ -25,3 +25,4 @@ Documenting my transition from Cloud User to **Cloud Operator**. Currently maste
 | 2026-04-05 | Phase 1 | Foundation       |AWS CLI Install,Ready for Cloud interaction via terminal.|
 | 2026-04-07 | Phase 1 | Observability    |Log Analysis,Decoded HTTP 200/304 codes via tail -f.|
 |2026-04-07  | Phase 1 | Observability    |Network Audit,Verified port 80 status using ss -tulpn.|
+|2026-04-08  | Cloud Sim | Docker & LocalStack |Pulled 1.26GB LocalStack image; handled network timeouts with retry logic.|
