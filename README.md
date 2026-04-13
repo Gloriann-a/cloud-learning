@@ -27,3 +27,4 @@ Documenting my transition from Cloud User to **Cloud Operator**. Currently maste
 |2026-04-07  | Phase 1 | Observability    |Network Audit,Verified port 80 status using ss -tulpn.|
 2026-04-03 | Foundation | Nginx Setup | Installed & verified web server. |
 |2026-04-08  | Cloud Sim | Docker & LocalStack |Pulled 1.26GB LocalStack image; handled network timeouts with retry logic.|
+|2026-04-13 | Automation | Bash Scripting | Created sys_check.sh to monitor IP, Nginx, and Disk Space.|
