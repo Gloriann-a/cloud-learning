@@ -28,7 +28,7 @@ Documenting my transition from Cloud User to **Cloud Operator**. Currently maste
 2026-04-03 | Foundation | Nginx Setup | Installed & verified web server. |
 |2026-04-08  | Cloud Sim | Docker & LocalStack |Pulled 1.26GB LocalStack image; handled network timeouts with retry logic.|
 |2026-04-13 | Automation | Bash Scripting | Created sys_check.sh to monitor IP, Nginx, and Disk Space.|
-|2026-04-13 |Cloud Sim | S3 Provisioning | Resolved Pro license errors; successfully created S3 bucket via LocalStack v3.0.2.|
+|2026-04-13 |Cloud Sim | S3 Provisioning | sudiResolved Pro license errors; successfully created S3 bucket via LocalStack v3.0.2.|
 
 Markdown
 # Cloud Learning Journey: Local Cloud Setup (13/04/2026)
@@ -62,3 +62,20 @@ Status: Identified as a version mismatch between AWS CLI v2 and LocalStack. Prov
 
 📁 Verified Resources
 S3 Bucket: gloria-first-bucket (Created via AWS CLI)
+
+
+## 🛠️ Infrastructure & Troubleshooting Log (28/04/2026)
+
+### Case Study: Resolving WSL2 Connection Timeouts
+**Issue:** Encountered `HCS_E_CONNECTION_TIMEOUT` which prevented the Linux kernel from booting.
+**Root Cause:** A "lock" on the Windows Host Compute Service (vmcompute) that standard restarts failed to clear.
+**The Fix:**
+1. Performed a forced WSL shutdown: `wsl --shutdown`
+2. Manually terminated the Host Compute Service: `net stop vmcompute`
+3. Cold-started the service to clear memory buffers: `net start vmcompute`
+**Outcome:** Restored environment stability without data loss.
+
+### 🛡️ Security Implementation
+* **Tool:** UFW (Uncomplicated Firewall)
+* **Status:** Active
+* **Rule Logic:** Implemented "Least Privilege" by closing all ports except **80/tcp** to allow controlled web traffic while securing the internal OS.
