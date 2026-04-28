@@ -25,10 +25,14 @@ Documenting my transition from Cloud User to **Cloud Operator**. Currently maste
 | 2026-04-05 | Phase 1 | Foundation       |AWS CLI Install,Ready for Cloud interaction via terminal.|
 | 2026-04-07 | Phase 1 | Observability    |Log Analysis,Decoded HTTP 200/304 codes via tail -f.|
 |2026-04-07  | Phase 1 | Observability    |Network Audit,Verified port 80 status using ss -tulpn.|
-2026-04-03 | Foundation | Nginx Setup | Installed & verified web server. |
+|2026-04-03 | Foundation | Nginx Setup | Installed & verified web server. |
 |2026-04-08  | Cloud Sim | Docker & LocalStack |Pulled 1.26GB LocalStack image; handled network timeouts with retry logic.|
 |2026-04-13 | Automation | Bash Scripting | Created sys_check.sh to monitor IP, Nginx, and Disk Space.|
 |2026-04-13 |Cloud Sim | S3 Provisioning | sudiResolved Pro license errors; successfully created S3 bucket via LocalStack v3.0.2.|
+|2026-04-28	| Foundations|Critical System Recovery |	Resolved HCS_E_CONNECTION_TIMEOUT by manually restarting the vmcompute service.| Learned that the virtualization host layer can fail even when Windows appears "normal."|
+|2026-04-28	| Foundations|OS Security Baseline|Successfully installed ufw on Ubuntu. Implemented the "Principle of Least Privilege" by explicitly allowing only Port 80/tcp and activating the firewall.|
+2026-04-28 | Foundations |Env Synchronization| Restored the VS Code-to-WSL bridge (code .) after a software update. Practiced navigating directory structures to ensure git commands are run from the repository root.|
+
 
 Markdown
 # Cloud Learning Journey: Local Cloud Setup (13/04/2026)
