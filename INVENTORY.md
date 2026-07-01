@@ -13,4 +13,4 @@
 ## 🌐 Networking & Security Baseline
 - [ ] Core Port Protocols (Do I understand the difference between port 22, 80, and 443?)
 - [ ] Firewall Management (Do I know how to view active rules using `sudo ufw status`?)
-- [ ] Principle of Least Privilege (Can I explain why root access shouldn't be used for daily tasks?## 💻 
+- [ ] Principle of Least Privilege (Can I explain why root access shouldn't be used for daily tasks?) 
