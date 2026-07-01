@@ -1,9 +1,9 @@
 # Cloud Skills Inventory Baseline
 
 ## 🛠️ Infrastructure & OS (ALX/Linux Foundations)
-- [ ] SSH Key Pair Management (Can I connect to GitHub securely without password prompts?)
-- [ ] Directory & File Control (Do I know how to use `chmod` and `chown` to restrict access?)
-- [ ] Package Management (Can I update systems and isolate dependencies using `apt`?)
+- [x] SSH Key Pair Management (Can I connect to GitHub securely without password prompts?)
+- [x] Directory & File Control (Do I know how to use `chmod` and `chown` to restrict access?)
+- [x] Package Management (Can I update systems and isolate dependencies using `apt`?)
 
 ## 💻 Version Control & Tooling (Git/CLI/Docker)
 - [ ] Git Fundamentals (Am I comfortable using `git status`, `git log`, and tracking branches?)
