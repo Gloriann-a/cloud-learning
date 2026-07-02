@@ -1,6 +1,6 @@
 
 
-# Technical Documentation: Cloud Engineering Baseline Audit
+ Technical Documentation: Cloud Engineering Baseline Audit
 
 System Owner: Gloria
 
@@ -11,11 +11,11 @@ Repository: `~/cloud-learning`
 Status: Successfully Audited & Hardened
 
 
-## 1. Operating System & Package Management (Linux)
+ 1. Operating System & Package Management (Linux)
 
 The local workstation runs an Ubuntu Linux subsystem via WSL2.
 
-### Key Concepts Revived:
+Key Concepts Revived:
 
 * The Package Manager (`apt`): `sudo apt update`: Synchronizes local package index files with the remote repositories (fetches the latest "menu" of software versions).
 * `sudo apt upgrade`: Installs the actual software updates based on the updated index.
@@ -26,19 +26,17 @@ The local workstation runs an Ubuntu Linux subsystem via WSL2.
 * `chmod 755`: Grants full control (Read, Write, Execute) to the owner, while limiting groups and others to Read and Execute only.
 * `chmod +x`: Explicitly flags a script file as executable.
 
-
-
-## 2. Version Control & Tooling Architecture
+ 2. Version Control & Tooling Architecture
 
 All local configurations are validated as up-to-date and securely isolated from production clouds using local emulation boundaries.
 
-### Local Tool Versions:
+ Local Tool Versions:
 
 * Git Engine: `v2.43.0`
 * Docker Engine: `v29.1.3`
 * AWS CLI: `v2.34.24` (Configured for custom endpoint overrides)
 
-### Core Workflow Mechanisms:
+ Core Workflow Mechanisms:
 
 * Git Tracking (`git log`): Command utilized to view sequential commit history.
 * *Note: When logs exceed the screen window, Linux pipes the output into a pager (`less`). The `q` key must be pressed to exit the pager and restore terminal control.
@@ -54,12 +52,11 @@ bash
 aws s3 ls --endpoint-url=http://localhost:4566
 
 
-
-## 3. Network Security Control
+3. Network Security Control
 
 The local machine is guarded by an active host-level firewall enforcement layer adhering to the Principle of Least Privilege (restricting technical entities strictly to the permissions required to perform their jobs).
 
-### Firewall Profile (`sudo ufw status`):
+Firewall Profile (`sudo ufw status`):
 
 * Status: `Active`
 * Inbound Rules:
